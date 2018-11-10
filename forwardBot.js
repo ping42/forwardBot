@@ -1,6 +1,6 @@
 const Telebot = require('telebot')
 
-const token = '709254913:AAGWA8101aYLdjVUR3tdGSUV_nHuykDU3rA'
+const token = 'Token_Here'
 const bot = new Telebot(token)
 
 var groupList = []
