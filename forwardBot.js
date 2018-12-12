@@ -65,26 +65,6 @@ bot.on('*', (msg) => {
         else {
             return bot.sendMessage(msg.chat.id, 'This group has not joined to the forwarding group list. Use /join to join.')
         }
-
-        
-        // if (joinedMap.get(msg.chat.id) == null) {
-        //     return bot.sendMessage(msg.chat.id, 'This group has not joined to the forwarding group list. Use **/join** to join')
-        // }
-        // else {
-        //     if (groupList.includes(msg.chat.id)) {
-        //         groupList.forEach( groupID => {
-        //             if (groupID == msg.chat.id) {
-        //                 return
-        //             }
-        //             else {
-        //                 bot.forwardMessage(groupID, msg.chat.id, msg.message_id)
-        //             }
-        //         })
-        //     }
-        //     else {
-        //         return bot.sendMessage(msg.chat.id, 'This group has not joined to the forwarding group list. Use **/join** to join')
-        //     }
-        // }
     }
 })
 
